@@ -1,0 +1,1046 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12505696700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify user can able to book the hotel with valid credentials",
+        "description": "",
+        "id": "verifying-the-adaction-functionalities;verify-user-can-able-to-book-the-hotel-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 790405100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter \"suganyasugan\",\"Suganya90\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suganyasugan\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Suganya90\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2855175600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click Login button",
+            "match": {
+              "location": "StepDefinition.user_should_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User should enter \"London\",\"Hotel Creek\",\"Standard\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "noOfRooms",
+                  "adultroom",
+                  "childroom"
+                ]
+              },
+              {
+                "cells": [
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "2 - Two",
+                  "2 - Two",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "3 - Three",
+                  "3 - Three",
+                  "3 - Three"
+                ]
+              },
+              {
+                "cells": [
+                  "4 - Four",
+                  "4 - Four",
+                  "4 - Four"
+                ]
+              },
+              {
+                "cells": [
+                  "5 - Five",
+                  "1 - One",
+                  "0 - None"
+                ]
+              },
+              {
+                "cells": [
+                  "6 - Six",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "7 - Seven",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "8 - Eight",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "9 - Nine",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "10 - Ten",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should click on search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6100,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should click radio button",
+            "match": {
+              "location": "StepDefinition.user_should_click_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should enter \"Suganya\",\"R\",\"Chennai\",\"1236547890123654\",\"May\",\"2022\" and \"2425\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "cardTypes"
+                ]
+              },
+              {
+                "cells": [
+                  "Master Card"
+                ]
+              },
+              {
+                "cells": [
+                  "American Express"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "Other"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User should click the book now button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User can check the booking confirmation order in the page",
+            "match": {
+              "location": "StepDefinition.user_can_check_the_booking_confirmation_order_in_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 595629300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Verify user can able to book the hotel with valid credentials",
+        "description": "",
+        "id": "verifying-the-adaction-functionalities;verify-user-can-able-to-book-the-hotel-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 768336400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter \"edwinraj\",\"edwin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"edwinraj\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"edwin@123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.user_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1261066800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click Login button",
+            "match": {
+              "location": "StepDefinition.user_should_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User should enter \"London\",\"Hotel Creek\",\"Double\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "noOfRooms",
+                  "adultroom",
+                  "childroom"
+                ]
+              },
+              {
+                "cells": [
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "2 - Two",
+                  "2 - Two",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "3 - Three",
+                  "3 - Three",
+                  "3 - Three"
+                ]
+              },
+              {
+                "cells": [
+                  "4 - Four",
+                  "4 - Four",
+                  "4 - Four"
+                ]
+              },
+              {
+                "cells": [
+                  "5 - Five",
+                  "1 - One",
+                  "0 - None"
+                ]
+              },
+              {
+                "cells": [
+                  "6 - Six",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "7 - Seven",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "8 - Eight",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "9 - Nine",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "10 - Ten",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should click on search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should click radio button",
+            "match": {
+              "location": "StepDefinition.user_should_click_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should enter \"Suganya\",\"R\",\"Chennai\",\"1236547890123654\",\"May\",\"2022\" and \"2425\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "cardTypes"
+                ]
+              },
+              {
+                "cells": [
+                  "Master Card"
+                ]
+              },
+              {
+                "cells": [
+                  "American Express"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "Other"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6100,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User should click the book now button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12500,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User can check the booking confirmation order in the page",
+            "match": {
+              "location": "StepDefinition.user_can_check_the_booking_confirmation_order_in_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 514707300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Verify user can able to book the hotel with valid credentials",
+        "description": "",
+        "id": "verifying-the-adaction-functionalities;verify-user-can-able-to-book-the-hotel-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770187900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter \"priyadharshiniM\",\"priyasuji\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priyadharshiniM\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"priyasuji\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062382100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click Login button",
+            "match": {
+              "location": "StepDefinition.user_should_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User should enter \"London\",\"Hotel Creek\",\"Deluxe\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "noOfRooms",
+                  "adultroom",
+                  "childroom"
+                ]
+              },
+              {
+                "cells": [
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "2 - Two",
+                  "2 - Two",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "3 - Three",
+                  "3 - Three",
+                  "3 - Three"
+                ]
+              },
+              {
+                "cells": [
+                  "4 - Four",
+                  "4 - Four",
+                  "4 - Four"
+                ]
+              },
+              {
+                "cells": [
+                  "5 - Five",
+                  "1 - One",
+                  "0 - None"
+                ]
+              },
+              {
+                "cells": [
+                  "6 - Six",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "7 - Seven",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "8 - Eight",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "9 - Nine",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "10 - Ten",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should click on search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8200,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should click radio button",
+            "match": {
+              "location": "StepDefinition.user_should_click_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should enter \"Suganya\",\"R\",\"Chennai\",\"1236547890123654\",\"May\",\"2022\" and \"2425\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "cardTypes"
+                ]
+              },
+              {
+                "cells": [
+                  "Master Card"
+                ]
+              },
+              {
+                "cells": [
+                  "American Express"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "Other"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8600,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User should click the book now button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User can check the booking confirmation order in the page",
+            "match": {
+              "location": "StepDefinition.user_can_check_the_booking_confirmation_order_in_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 547382000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Verify user can able to book the hotel with valid credentials",
+        "description": "",
+        "id": "verifying-the-adaction-functionalities;verify-user-can-able-to-book-the-hotel-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691468200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter \"Abhimanyuu\",\"Password01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abhimanyuu\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Password01\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinition.user_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079864200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click Login button",
+            "match": {
+              "location": "StepDefinition.user_should_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User should enter \"London\",\"Hotel Creek\",\"Super Deluxe\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "noOfRooms",
+                  "adultroom",
+                  "childroom"
+                ]
+              },
+              {
+                "cells": [
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "2 - Two",
+                  "2 - Two",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "3 - Three",
+                  "3 - Three",
+                  "3 - Three"
+                ]
+              },
+              {
+                "cells": [
+                  "4 - Four",
+                  "4 - Four",
+                  "4 - Four"
+                ]
+              },
+              {
+                "cells": [
+                  "5 - Five",
+                  "1 - One",
+                  "0 - None"
+                ]
+              },
+              {
+                "cells": [
+                  "6 - Six",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "7 - Seven",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "8 - Eight",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "9 - Nine",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              },
+              {
+                "cells": [
+                  "10 - Ten",
+                  "1 - One",
+                  "2 - Two"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should click on search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should click radio button",
+            "match": {
+              "location": "StepDefinition.user_should_click_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should enter \"Suganya\",\"R\",\"Chennai\",\"1236547890123654\",\"May\",\"2022\" and \"2425\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "cardTypes"
+                ]
+              },
+              {
+                "cells": [
+                  "Master Card"
+                ]
+              },
+              {
+                "cells": [
+                  "American Express"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "Other"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User should click the book now button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User can check the booking confirmation order in the page",
+            "match": {
+              "location": "StepDefinition.user_can_check_the_booking_confirmation_order_in_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the adaction functionalities",
+    "description": "",
+    "id": "verifying-the-adaction-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/DataProvider.feature",
+    "tags": [
+      {
+        "name": "@Func1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

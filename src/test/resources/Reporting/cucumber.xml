@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="4" time="23.449452">
+<testcase classname="Verifying the adaction functionalities" name="Verify user can able to book the hotel with valid credentials" time="16.156754">
+<skipped><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter "suganyasugan","Suganya90"...........................passed
+And User should click Login button..........................................passed
+When User should enter "London","Hotel Creek","Standard"....................undefined
+And User should click on search button......................................skipped
+When User should click radio button.........................................skipped
+Then User should click the continue button..................................skipped
+When User should enter "Suganya","R","Chennai","1236547890123654","May","2022" and "2425".undefined
+And User should click the book now button...................................skipped
+And User can check the booking confirmation order in the page...............skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying the adaction functionalities" name="Verify user can able to book the hotel with valid credentials 2" time="2.625602">
+<skipped><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter "edwinraj","edwin@123"...............................passed
+And User should click Login button..........................................passed
+When User should enter "London","Hotel Creek","Double"......................undefined
+And User should click on search button......................................skipped
+When User should click radio button.........................................skipped
+Then User should click the continue button..................................skipped
+When User should enter "Suganya","R","Chennai","1236547890123654","May","2022" and "2425".undefined
+And User should click the book now button...................................skipped
+And User can check the booking confirmation order in the page...............skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying the adaction functionalities" name="Verify user can able to book the hotel with valid credentials 3" time="2.347885">
+<skipped><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter "priyadharshiniM","priyasuji"........................passed
+And User should click Login button..........................................passed
+When User should enter "London","Hotel Creek","Deluxe"......................undefined
+And User should click on search button......................................skipped
+When User should click radio button.........................................skipped
+Then User should click the continue button..................................skipped
+When User should enter "Suganya","R","Chennai","1236547890123654","May","2022" and "2425".undefined
+And User should click the book now button...................................skipped
+And User can check the booking confirmation order in the page...............skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying the adaction functionalities" name="Verify user can able to book the hotel with valid credentials 4" time="2.319211">
+<skipped><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter "Abhimanyuu","Password01"............................passed
+And User should click Login button..........................................passed
+When User should enter "London","Hotel Creek","Super Deluxe"................undefined
+And User should click on search button......................................skipped
+When User should click radio button.........................................skipped
+Then User should click the continue button..................................skipped
+When User should enter "Suganya","R","Chennai","1236547890123654","May","2022" and "2425".undefined
+And User should click the book now button...................................skipped
+And User can check the booking confirmation order in the page...............skipped
+]]></skipped>
+</testcase>
+</testsuite>
